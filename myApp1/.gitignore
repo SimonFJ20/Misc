@@ -1,0 +1,13 @@
+
+#
+#   Add files here you dont want on GitHub
+#
+
+# Can be downloaded by running `npm install`
+node_modules/
+
+# Can be built by running `npm run build`
+dist/main.js
+
+# Automatically generated when using npm, and does not add value
+package-lock.json

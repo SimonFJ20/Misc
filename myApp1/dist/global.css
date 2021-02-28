@@ -1,0 +1,83 @@
+
+/*
+*       Your FromWorkJS App
+*
+*       Filename:   global.css
+*       Pathname:   dist/global.css
+*       Language:   Cascading Style Sheets (CSS)
+*       Content:    Contains general css styling
+*
+*       License:    MIT (Or your License Here)
+*
+*       Authors:
+*       Your Name Here
+*           Email:      your@email.here
+*           GitHub:     yourgithub
+*
+*       Created:    XX-XX-20XX
+*       Last Edit:  XX-XX-20XX
+*/
+
+
+
+/* Your CSS here */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#topbar {
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    margin-left: 10%;
+    width: 80%;
+}
+
+#topbar h1 {
+    margin: 5px;
+    font-size: 35px;
+}
+
+#topbarUser {
+    position: absolute;
+    top: 25px;
+    right: 12%;
+    padding: 5px;
+    border: 1px solid black;
+}
+#topbarUser:hover {
+    background-color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+#topbar a {
+    border-left: 1px solid black;
+    padding: 5px;
+}
+#topbar a:first-child {
+    border: 0;
+}
+#topbar a:hover {
+    background-color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+#login {
+    width: 40%;
+    padding-left: 30%;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+#login form {
+    border: 1px solid black;
+    padding: 40px;
+}
+
